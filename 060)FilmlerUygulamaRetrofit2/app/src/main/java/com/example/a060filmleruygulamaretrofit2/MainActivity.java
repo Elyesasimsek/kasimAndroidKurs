@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tumKategoriler(){
-        kategorilerDIF.tumKategoriler().enqueue(new Callback<KategorilerCevap>() {
+        kategorilerDIF. tumKategoriler().enqueue(new Callback<KategorilerCevap>() {
             @Override
             public void onResponse(Call<KategorilerCevap> call, Response<KategorilerCevap> response) {
                 List<Kategoriler> kategorilerList = response.body().getKategoriler();

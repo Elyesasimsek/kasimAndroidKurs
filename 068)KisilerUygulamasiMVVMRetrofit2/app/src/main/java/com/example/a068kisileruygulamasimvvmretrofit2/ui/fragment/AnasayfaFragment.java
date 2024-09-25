@@ -50,6 +50,7 @@ public class AnasayfaFragment extends Fragment implements SearchView.OnQueryText
         });
 
         ((AppCompatActivity)getActivity()).setSupportActionBar(tasarim.toolbarAnasayfa);
+
         requireActivity().addMenuProvider(new MenuProvider() {
             @Override
             public void onCreateMenu(@NonNull Menu menu, @NonNull MenuInflater menuInflater) {
